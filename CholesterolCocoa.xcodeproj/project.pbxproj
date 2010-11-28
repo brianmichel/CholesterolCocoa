@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		72A0007812A2F029003789FB /* RuleEditorPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0007712A2F029003789FB /* RuleEditorPanelController.m */; };
+		72A0007A12A2F214003789FB /* RuleEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0007912A2F214003789FB /* RuleEditor.xib */; };
+		72A0FF5612A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF5512A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld */; };
+		72A0FF5D12A2CFA6003789FB /* FirewallRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF5C12A2CFA6003789FB /* FirewallRule.m */; };
+		72A0FF6A12A2D289003789FB /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF6912A2D289003789FB /* Host.m */; };
+		72A0FF8612A2D6AE003789FB /* CCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF8512A2D6AE003789FB /* CCMenu.m */; };
+		72A0FF8912A2D706003789FB /* CCStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF8812A2D706003789FB /* CCStatusItem.m */; };
+		72A0FF9B12A2DB8C003789FB /* StatusWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0FF9A12A2DB8C003789FB /* StatusWindow.xib */; };
+		72A0FFA012A2DC27003789FB /* StatusWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF9F12A2DC27003789FB /* StatusWindowController.m */; };
+		72A0FFA912A2DF7B003789FB /* eggcracki.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A0FFA712A2DF7B003789FB /* eggcracki.png */; };
+		72A0FFAA12A2DF7B003789FB /* eggcrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A0FFA812A2DF7B003789FB /* eggcrack.png */; };
+		77C8280E06725ACE000B614F /* CholesterolCocoa_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* CholesterolCocoa_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CholesterolCocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CholesterolCocoa_Prefix.pch; sourceTree = "<group>"; };
+		72A0007612A2F029003789FB /* RuleEditorPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEditorPanelController.h; sourceTree = "<group>"; };
+		72A0007712A2F029003789FB /* RuleEditorPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleEditorPanelController.m; sourceTree = "<group>"; };
+		72A0007912A2F214003789FB /* RuleEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuleEditor.xib; sourceTree = "<group>"; };
+		72A0FF5B12A2CFA6003789FB /* FirewallRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirewallRule.h; sourceTree = "<group>"; };
+		72A0FF5C12A2CFA6003789FB /* FirewallRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirewallRule.m; sourceTree = "<group>"; };
+		72A0FF6812A2D289003789FB /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
+		72A0FF6912A2D289003789FB /* Host.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Host.m; sourceTree = "<group>"; };
+		72A0FF8412A2D6AE003789FB /* CCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenu.h; sourceTree = "<group>"; };
+		72A0FF8512A2D6AE003789FB /* CCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenu.m; sourceTree = "<group>"; };
+		72A0FF8712A2D706003789FB /* CCStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStatusItem.h; sourceTree = "<group>"; };
+		72A0FF8812A2D706003789FB /* CCStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStatusItem.m; sourceTree = "<group>"; };
+		72A0FF9A12A2DB8C003789FB /* StatusWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusWindow.xib; sourceTree = "<group>"; };
+		72A0FF9E12A2DC27003789FB /* StatusWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusWindowController.h; sourceTree = "<group>"; };
+		72A0FF9F12A2DC27003789FB /* StatusWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusWindowController.m; sourceTree = "<group>"; };
+		72A0FFA712A2DF7B003789FB /* eggcracki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggcracki.png; sourceTree = "<group>"; };
+		72A0FFA812A2DF7B003789FB /* eggcrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggcrack.png; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* CholesterolCocoa_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CholesterolCocoa_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* CholesterolCocoa_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CholesterolCocoa_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* CholesterolCocoa_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CholesterolCocoa_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CholesterolCocoa-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "CholesterolCocoa-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* CholesterolCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CholesterolCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FF9D12A2DC08003789FB /* Views */,
+				72A0FF8312A2D630003789FB /* Statusbar Menu */,
+				72A0FF5A12A2CF8D003789FB /* Model */,
+				77C8280B06725ACE000B614F /* CholesterolCocoa_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* CholesterolCocoa_AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* CholesterolCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CholesterolCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CholesterolCocoa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CholesterolCocoa_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FFA612A2DEF4003789FB /* assets */,
+				8D1107310486CEB800E47090 /* CholesterolCocoa-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				72A0FF9A12A2DB8C003789FB /* StatusWindow.xib */,
+				72A0007912A2F214003789FB /* RuleEditor.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A0FF5A12A2CF8D003789FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FF6612A2D26B003789FB /* Core Data */,
+				72A0FF5B12A2CFA6003789FB /* FirewallRule.h */,
+				72A0FF5C12A2CFA6003789FB /* FirewallRule.m */,
+				72A0FF6812A2D289003789FB /* Host.h */,
+				72A0FF6912A2D289003789FB /* Host.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72A0FF6612A2D26B003789FB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FF5512A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		72A0FF8312A2D630003789FB /* Statusbar Menu */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FF8412A2D6AE003789FB /* CCMenu.h */,
+				72A0FF8512A2D6AE003789FB /* CCMenu.m */,
+				72A0FF8712A2D706003789FB /* CCStatusItem.h */,
+				72A0FF8812A2D706003789FB /* CCStatusItem.m */,
+			);
+			name = "Statusbar Menu";
+			sourceTree = "<group>";
+		};
+		72A0FF9D12A2DC08003789FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FF9E12A2DC27003789FB /* StatusWindowController.h */,
+				72A0FF9F12A2DC27003789FB /* StatusWindowController.m */,
+				72A0007612A2F029003789FB /* RuleEditorPanelController.h */,
+				72A0007712A2F029003789FB /* RuleEditorPanelController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		72A0FFA612A2DEF4003789FB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				72A0FFA712A2DF7B003789FB /* eggcracki.png */,
+				72A0FFA812A2DF7B003789FB /* eggcrack.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* CholesterolCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "CholesterolCocoa" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CholesterolCocoa;
+			productInstallPath = "$(HOME)/Applications";
+			productName = CholesterolCocoa;
+			productReference = 8D1107320486CEB800E47090 /* CholesterolCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "CholesterolCocoa" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CholesterolCocoa */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* CholesterolCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				72A0FF9B12A2DB8C003789FB /* StatusWindow.xib in Resources */,
+				72A0FFA912A2DF7B003789FB /* eggcracki.png in Resources */,
+				72A0FFAA12A2DF7B003789FB /* eggcrack.png in Resources */,
+				72A0007A12A2F214003789FB /* RuleEditor.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* CholesterolCocoa_AppDelegate.m in Sources */,
+				72A0FF5612A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld in Sources */,
+				72A0FF5D12A2CFA6003789FB /* FirewallRule.m in Sources */,
+				72A0FF6A12A2D289003789FB /* Host.m in Sources */,
+				72A0FF8612A2D6AE003789FB /* CCMenu.m in Sources */,
+				72A0FF8912A2D706003789FB /* CCStatusItem.m in Sources */,
+				72A0FFA012A2DC27003789FB /* StatusWindowController.m in Sources */,
+				72A0007812A2F029003789FB /* RuleEditorPanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CholesterolCocoa_Prefix.pch;
+				INFOPLIST_FILE = "CholesterolCocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CholesterolCocoa;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CholesterolCocoa_Prefix.pch;
+				INFOPLIST_FILE = "CholesterolCocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CholesterolCocoa;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "CholesterolCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "CholesterolCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72A0FF5512A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* CholesterolCocoa_DataModel.xcdatamodel */,
+			);
+			currentVersion = 770B37EC0679A11B001EADE2 /* CholesterolCocoa_DataModel.xcdatamodel */;
+			path = CholesterolCocoa_DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,290 @@
+TCholesterolCocoa
+v7
+r0
+t312661155.447863
+cCheck dependencies
+cProcessInfoPlistFile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Info.plist CholesterolCocoa-Info.plist
+cCopyStringsFile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch.gch CholesterolCocoa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld
+cCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/main.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa_AppDelegate.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/FirewallRule.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/Host.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C4340A500000000000000EE
+t1279475877
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BA36F13000000000000043A
+t1269002003
+s1082
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.h
+c000000004CF29654000000000000031C
+t1290966612
+s796
+i<Cocoa/Cocoa.h>
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m
+c000000004CF296540000000000001E40
+t1290966612
+s7744
+i"CholesterolCocoa_AppDelegate.h"
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodel
+c000000004CF297AF0000000000000088
+t1290966959
+s136
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld
+c000000004CF29B490000000000000088
+t1290967881
+s136
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_Prefix.pch
+c000000004CF2965400000000000000A3
+t1290966612
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/InfoPlist.strings
+c000000004CF29654000000000000005A
+t1290966612
+s90
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib
+c000000004CF29654000000000002031A
+t1290966612
+s131866
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h
+c000000004CF29D190000000000000291
+t1290968345
+s657
+i<CoreData/CoreData.h>
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m
+c000000004CF29A660000000000000149
+t1290967654
+s329
+i"FirewallRule.h"
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h
+c000000004CF29D150000000000000259
+t1290968341
+s601
+i<CoreData/CoreData.h>
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m
+c000000004CF29D0D00000000000000DC
+t1290968333
+s220
+i"Host.h"
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa.LinkFileList
+c000000004CF29D190000000000000294
+t1290968345
+s660
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa_AppDelegate.o
+t1290968355
+s42136
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/FirewallRule.o
+t2
+s0
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/Host.o
+t2
+s0
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/main.o
+t1290968355
+s5048
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app
+t2
+s0
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Info.plist
+t1290968345
+s946
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/MacOS/CholesterolCocoa
+t2
+s0
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/PkgInfo
+t1290968345
+s8
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.mom
+t2
+s0
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd
+t1290968355
+s136
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290968347
+s90
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290968348
+s29984
+
+N/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m
+c000000004CF296540000000000000107
+t1290966612
+s263
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch.gch
+t1290968354
+s54265616
+
+NCholesterolCocoa-Info.plist
+c000000004CF29684000000000000040B
+t1290966660
+s1035
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312661145#312661145#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa_AppDelegate.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312661155.206959
+e312661155.429884
+r1
+xCompileC
+xbuild/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa_AppDelegate.o
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m312661155#312661155#0(0"0(0#0#100"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m8030592636381654016#1481"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/CholesterolCocoa.hmap -F/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/include -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources/x86_64 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources -include /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch -c /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_AppDelegate.m -o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/CholesterolCocoa_AppDelegate.o0#
+
+CCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/FirewallRule.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312661155.332387
+e312661155.399091
+r0
+xCompileC
+xbuild/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/FirewallRule.o
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:9:
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h:23: error: no type or storage class may be specified here before 'interface'
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:13: error: expected identifier or '(' before 'dynamic'
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:14: error: expected identifier or '(' before 'dynamic'
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:15: error: expected identifier or '(' before 'dynamic'
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:16: error: expected identifier or '(' before 'dynamic'
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:19: confused by earlier errors, bailing out
+lSLF07#2@92"Compile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312661155#312661155#0(961"In file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:9:/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h:23: error: no type or storage class may be specified here before 'interface'/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:13: error: expected identifier or '(' before 'dynamic'/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:14: error: expected identifier or '(' before 'dynamic'/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:15: error: expected identifier or '(' before 'dynamic'/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:16: error: expected identifier or '(' before 'dynamic'/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m:19: confused by earlier errors, bailing out6(4@65"No type or storage class may be specified here before 'interface'312661155#110#162#2(7@106"In file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312661155#18446744073709551615#0#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#9#0#9#0#0"0(13@153"No type or storage class may be specified here before 'interface' in /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h312661155#18446744073709551615#0#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h312661145#23#0#23#0#0"0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.h312661145#23#0#23#0#0"0(4@43"Expected identifier or '(' before 'dynamic'312661155#272#140#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#13#0#13#0#19"expected * before *0(4@43"Expected identifier or '(' before 'dynamic'312661155#412#140#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#14#0#14#0#19"expected * before *0(4@43"Expected identifier or '(' before 'dynamic'312661155#552#140#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#15#0#15#0#19"expected * before *0(4@43"Expected identifier or '(' before 'dynamic'312661155#692#140#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#16#0#16#0#19"expected * before *0(4@39"Confused by earlier errors, bailing out312661155#832#129#0(6@84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m312660454#19#0#19#0#39"confused by earlier errors, bailing out0(0#0#84"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m8633242816#1449"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/CholesterolCocoa.hmap -F/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/include -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources/x86_64 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources -include /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch -c /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/FirewallRule.m -o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/FirewallRule.o1#
+
+CCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/Host.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312661155.399180
+e312661155.447778
+r0
+xCompileC
+xbuild/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/Host.o
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m:9:
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h:18: fatal error: property declaration not in @interface or @implementation context
+ocompilation terminated.
+o{standard input}:34:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@84"Compile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m312661155#312661155#0(350"In file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m:9:/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h:18: fatal error: property declaration not in @interface or @implementation contextcompilation terminated.{standard input}:34:FATAL:.abort  detected.  Assembly stopping.1(4@65"Property declaration not in @interface or @implementation context312661155#102#160#2(7@98"In file included from /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m312661155#18446744073709551615#0#0(6@76"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m312661133#9#0#9#0#0"0(13@145"Property declaration not in @interface or @implementation context in /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h312661155#18446744073709551615#0#0(6@76"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h312661141#18#0#18#0#0"0(6@76"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.h312661141#18#0#18#0#0"0(0#0#76"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m8631629696#1433"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/CholesterolCocoa.hmap -F/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/include -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources/x86_64 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources -include /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch -c /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/Host.m -o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/Host.o1#
+
+CCompileC build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/main.o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312661154.931959
+e312661155.332279
+r1
+xCompileC
+xbuild/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/main.o
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m312661154#312661155#0(0"0(0#0#76"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m8633286560#1433"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/CholesterolCocoa.hmap -F/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/include -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources/x86_64 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources -include /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch -c /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/main.m -o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib
+s312661145.982266
+e312661148.385360
+r1
+xCompileXIB
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib312661145#312661148#0(0"0(0#0#96"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib8633297120#466"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/MainMenu.nib /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s312661145.960386
+e312661147.062201
+r1
+xCopyStringsFile
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312661145#312661147#0(0"0(0#0#101"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/English.lproj/InfoPlist.strings8633480640#437"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/English.lproj0#
+
+CDataModelCompile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.mom /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodel
+r0
+
+CDataModelVersionCompile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld
+s312661154.931185
+e312661155.206863
+r1
+xDataModelVersionCompile
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld
+o/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld/CholesterolCocoa_DataModel.xcdatamodel:Host.Rule: warning: Host.Rule -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 
+lSLF07#2@147"DataModelVersionCompile build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd CholesterolCocoa_DataModel.xcdatamodeld312661154#312661155#0(331"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld/CholesterolCocoa_DataModel.xcdatamodel:Host.Rule: warning: Host.Rule -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 1(22@161"Host.Rule -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 312661155#18446744073709551615#0#0(6@148"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld/CholesterolCocoa_DataModel.xcdatamodel312660681#0#0#0#0#0"0(0#0#109"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld8630877984#398"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_DataModel.xcdatamodeld /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Resources/CholesterolCocoa_DataModel.momd0#
+
+CLd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/MacOS/CholesterolCocoa normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Info.plist CholesterolCocoa-Info.plist
+s312661145.838852
+e312661145.960285
+r1
+xProcessInfoPlistFile
+x/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Info.plist
+xCholesterolCocoa-Info.plist
+lSLF07#2@35"Process CholesterolCocoa-Info.plist312661145#312661145#0(0"0(0#0#97"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa-Info.plist28429436511518824#430"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    builtin-infoPlistUtility CholesterolCocoa-Info.plist -genpkginfo /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch.gch CholesterolCocoa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312661148.385653
+e312661154.931045
+r1
+xProcessPCH
+x/var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch.gch
+xCholesterolCocoa_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile CholesterolCocoa_Prefix.pch312661148#312661154#0(0"0(0#0#97"/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_Prefix.pch8632507616#1299"    cd /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/CholesterolCocoa.hmap -F/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/include -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources/x86_64 -I/Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/CholesterolCocoa.build/Debug/CholesterolCocoa.build/DerivedSources -c /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/CholesterolCocoa_Prefix.pch -o /var/folders/Oe/OeylCbePHYizA+XQKD7fDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CholesterolCocoa_Prefix-hjypmicvxufolkcommceddjktysg/CholesterolCocoa_Prefix.pch.gch0#
+
+CTouch /Users/brianmichel/Documents/Development/Objective-C/CholesterolCocoa/build/Debug/CholesterolCocoa.app
+r0
+

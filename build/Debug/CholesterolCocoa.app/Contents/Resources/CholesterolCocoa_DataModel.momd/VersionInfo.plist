@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>CholesterolCocoa_DataModel</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>CholesterolCocoa_DataModel</key>
+		<dict>
+			<key>FirewallRule</key>
+			<data>
+			3fxCahgd9r+Hmi9MeyO9fQp+2EGld4XzNq0wKJXYXZ0=
+			</data>
+			<key>Host</key>
+			<data>
+			4nhdLgxqwv54UmaAbnfxrRCEJmECVNnBk75X4IhE6no=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>
