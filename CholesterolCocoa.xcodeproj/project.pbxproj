@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		720871CE12A3536A0093D2A7 /* Hosts.m in Sources */ = {isa = PBXBuildFile; fileRef = 720871CC12A3536A0093D2A7 /* Hosts.m */; };
 		72A0007812A2F029003789FB /* RuleEditorPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0007712A2F029003789FB /* RuleEditorPanelController.m */; };
 		72A0007A12A2F214003789FB /* RuleEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0007912A2F214003789FB /* RuleEditor.xib */; };
 		72A0FF5612A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72A0FF5512A2CF4D003789FB /* CholesterolCocoa_DataModel.xcdatamodeld */; };
@@ -33,6 +34,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CholesterolCocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CholesterolCocoa_Prefix.pch; sourceTree = "<group>"; };
+		720871CC12A3536A0093D2A7 /* Hosts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hosts.m; sourceTree = "<group>"; };
+		720871CD12A3536A0093D2A7 /* Hosts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hosts.h; sourceTree = "<group>"; };
 		72A0007612A2F029003789FB /* RuleEditorPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEditorPanelController.h; sourceTree = "<group>"; };
 		72A0007712A2F029003789FB /* RuleEditorPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleEditorPanelController.m; sourceTree = "<group>"; };
 		72A0007912A2F214003789FB /* RuleEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuleEditor.xib; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 		72A0FF5A12A2CF8D003789FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				720871CC12A3536A0093D2A7 /* Hosts.m */,
+				720871CD12A3536A0093D2A7 /* Hosts.h */,
 				72A0FF6612A2D26B003789FB /* Core Data */,
 				72A0FF5B12A2CFA6003789FB /* FirewallRule.h */,
 				72A0FF5C12A2CFA6003789FB /* FirewallRule.m */,
@@ -269,6 +274,7 @@
 				72A0FF8912A2D706003789FB /* CCStatusItem.m in Sources */,
 				72A0FFA012A2DC27003789FB /* StatusWindowController.m in Sources */,
 				72A0007812A2F029003789FB /* RuleEditorPanelController.m in Sources */,
+				720871CE12A3536A0093D2A7 /* Hosts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
