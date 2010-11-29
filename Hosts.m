@@ -7,8 +7,11 @@
 //
 
 #import "Hosts.h"
+#import "FirewallTask.h"
 
 @implementation Hosts
+
+@synthesize queue;
 
 static Hosts *sharedInstance = nil;
 
@@ -25,7 +28,13 @@ static Hosts *sharedInstance = nil;
   if (!(self = [super init])) {
     return nil;
   }
+  self.queue = [[NSOperationQueue alloc] init];
   return self;
+}
+
+- (void)dealloc {
+  [queue release];
+  [super dealloc];
 }
 
 - (void)newHostForName:(NSString *)name {
@@ -46,6 +55,10 @@ static Hosts *sharedInstance = nil;
   rule.endpoint = host.name;
   
   [cc_app_delegate() saveAction:self];
+  
+  FirewallTask *task = [[FirewallTask alloc] initWithEndpoint:rule.endpoint speed:rule.networkSpeed packetloss:rule.packetLossRatio latency:rule.connectionLatency];
+  [self.queue addOperation:task];
+  [task release];
 }
 
 #pragma mark -

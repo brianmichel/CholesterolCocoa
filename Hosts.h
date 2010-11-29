@@ -12,8 +12,10 @@
 #import "FirewallRule.h"
 
 @interface Hosts : NSObject {
-
+  NSOperationQueue *queue;
 }
+
+@property (nonatomic, retain) NSOperationQueue *queue;
 
 +(Hosts *)sharedInstance;
 - (void)newHostForName:(NSString *)name;
