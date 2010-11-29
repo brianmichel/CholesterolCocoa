@@ -22,7 +22,13 @@
 }
 
 - (void)launchPreferences:(id)sender {
-  [[NSWorkspace sharedWorkspace] openFile:@"/Users/brianmichel/Library/PreferencePanes/Cholesterol Preference Pane.prefPane/"];
+  NSString *userName = NSUserName();
+  NSFileManager *fm = [NSFileManager defaultManager];
+  if ([fm fileExistsAtPath:[NSString stringWithFormat:@"/Users/%@/Library/PreferencePanes/Cholesterol Preference Pane.prefPane/", userName]]) {
+    [[NSWorkspace sharedWorkspace] openFile:[NSString stringWithFormat:@"/Users/%@/Library/PreferencePanes/Cholesterol Preference Pane.prefPane/", userName]];
+  } else {
+    NSString *current = [fm currentDirectoryPath];
+  }
 }
 
 - (void)dealloc {

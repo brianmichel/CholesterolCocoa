@@ -14,6 +14,7 @@
 @dynamic networkSpeed;
 @dynamic packetLossRatio;
 @dynamic pipeNumber;
+@dynamic host;
 
 
 @end

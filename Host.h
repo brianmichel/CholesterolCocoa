@@ -16,6 +16,7 @@
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet* Rule;
+@property (nonatomic, retain) NSNumber * active;
 
 @end
 

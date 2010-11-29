@@ -146,6 +146,8 @@
   
   if (![[self managedObjectContext] save:&error]) {
     [[NSApplication sharedApplication] presentError:error];
+  } else {
+    NSLog(@"UHHH...SAVED?");
   }
 }
 

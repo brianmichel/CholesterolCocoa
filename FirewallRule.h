@@ -8,6 +8,7 @@
 
 #import <CoreData/CoreData.h>
 
+@class Host;
 
 @interface FirewallRule : NSManagedObject {
 
@@ -18,12 +19,7 @@
 @property (nonatomic, retain) NSNumber * networkSpeed;
 @property (nonatomic, retain) NSNumber * packetLossRatio;
 @property (nonatomic, retain) NSNumber * pipeNumber;
+@property (nonatomic, retain) Host * host;
 
 @end
-
-// coalesce these into one @interface FirewallRule (CoreDataGeneratedAccessors) section
-@interface FirewallRule (CoreDataGeneratedAccessors)
-
-@end
-
 

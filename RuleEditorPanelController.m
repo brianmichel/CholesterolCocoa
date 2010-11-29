@@ -7,7 +7,7 @@
 //
 
 #import "RuleEditorPanelController.h"
-
+#import "Hosts.h"
 
 @implementation RuleEditorPanelController
 
@@ -30,6 +30,9 @@
 
 - (void)saveAction:(id)sender {
   NSLog(@"SAVE ACTION BRO");
+  
+  [[Hosts sharedInstance] newHostForName:[self.hostName stringValue]];
+  
   [[self window] performClose:sender];
 }
 
