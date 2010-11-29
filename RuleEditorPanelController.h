@@ -15,7 +15,7 @@
   IBOutlet NSTextField *networkLatency;
   IBOutlet NSSlider *networkPacketLoss;
   IBOutlet NSProgressIndicator *hostProgressIndicator;
-  IBOutlet NSSliderCell *networkDelaySlider;
+  IBOutlet NSSlider *networkDelaySlider;
 }
 
 @property (nonatomic, retain) NSTextField *hostName;
@@ -23,7 +23,7 @@
 @property (nonatomic, retain) NSTextField *networkLatency;
 @property (nonatomic, retain) NSSlider *networkPacketLoss;
 @property (nonatomic, retain) NSProgressIndicator *hostProgressIndicator;
-@property (nonatomic, retain) NSSliderCell *networkDelaySlider;
+@property (nonatomic, retain) NSSlider *networkDelaySlider;
 
 - (void)saveAction:(id)sender;
 

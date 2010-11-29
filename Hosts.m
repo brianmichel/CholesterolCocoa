@@ -57,7 +57,7 @@ static Hosts *sharedInstance = nil;
 
 - (Host *)fetchHostForName:(NSString *)name {
   NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name = %@", name];
-  NSArray *results = [self fetchRequestWithEntity:@"FirewallRule" andPredicate:predicate];
+  NSArray *results = [self fetchRequestWithEntity:@"Host" andPredicate:predicate];
   return results && [results count] > 0 ? (Host *)[results objectAtIndex:0] : nil;
 }
 

@@ -17,7 +17,9 @@
 
 +(Hosts *)sharedInstance;
 - (void)newHostForName:(NSString *)name;
+- (Host *)fetchHostForName:(NSString *)name;
 - (NSArray *)fetchRequestWithEntity:(NSString *)entityName andPredicate:(NSPredicate *)predicate;
+- (void)newRuleForHost:(Host *)host withSpeed:(NSNumber *)speed latency:(NSNumber *)_latency packetLoss:(NSNumber *)loss delay:(NSNumber *)_delay;
 - (NSArray *)hosts;
 
 CholesterolCocoa_AppDelegate *cc_app_delegate();

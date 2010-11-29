@@ -1,3 +1,6 @@
+build/
+*.swp
+*~.nib
 build/*
 *.pbxuser
 !default.pbxuser

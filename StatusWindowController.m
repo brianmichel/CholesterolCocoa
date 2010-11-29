@@ -79,11 +79,22 @@
 - (id)tableView:(NSTableView *)aTableView objectValueForTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
   NSArray *hosts = [[Hosts sharedInstance] hosts];
   Host *aHost = [hosts objectAtIndex:rowIndex];
+  NSArray *rules = [aHost.Rule allObjects];
+  FirewallRule *rule = nil;
+  if ([rules count] != 0) {
+    rule = [rules objectAtIndex:0];
+  }
+  
   if ([[aTableColumn identifier] isEqualToString:@"a"]) {
     return aHost.active == [NSNumber numberWithBool:YES] ? @"Yes" : @"No";
   } else if ([[aTableColumn identifier] isEqualToString:@"h"]) {
     return aHost.name;
+  } else if ([[aTableColumn identifier] isEqualToString:@"b"] && rule != nil) {
+    return rule.networkSpeed;
+  } else if ([[aTableColumn identifier] isEqualToString:@"p"] && rule != nil) {
+    return rule.packetLossRatio;
   }
+
   return nil;
 }
 

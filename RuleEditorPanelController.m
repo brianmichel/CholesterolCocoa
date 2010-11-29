@@ -30,8 +30,16 @@
 
 - (void)saveAction:(id)sender {
   NSLog(@"SAVE ACTION BRO");
+  Host *currentHost;
+  //Try to fetch the host for the given name, if it is not nil set currentHost otherwise make a new host then set it.
+  if ([[Hosts sharedInstance] fetchHostForName:[self.hostName stringValue]] != nil) {
+    currentHost = [[Hosts sharedInstance] fetchHostForName:[self.hostName stringValue]];
+  } else {
+    [[Hosts sharedInstance] newHostForName:[self.hostName stringValue]];
+    currentHost = [[Hosts sharedInstance] fetchHostForName:[self.hostName stringValue]];
+  }
   
-  [[Hosts sharedInstance] newHostForName:[self.hostName stringValue]];
+  [[Hosts sharedInstance] newRuleForHost:currentHost withSpeed:[NSNumber numberWithInt:[self.networkSpeed intValue]] latency:[NSNumber numberWithInt:10] packetLoss:[NSNumber numberWithFloat:0.10] delay:[NSNumber numberWithInt:250]];
   
   [[self window] performClose:sender];
 }
