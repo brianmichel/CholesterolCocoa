@@ -64,6 +64,8 @@
   [fourthRule setLaunchPath:kIPFWPath];
   [fourthRule setArguments:[NSArray arrayWithObjects:fourthRuleString, nil]];
   [fourthRule launch];
+  
+  AuthorizationFree(authRef, kAuthorizationFlagDestroyRights);
 }
 
 - (void)dealloc {
