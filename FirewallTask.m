@@ -8,6 +8,7 @@
 
 #import "FirewallTask.h"
 #define kIPFWPath @"/sbin/ipfw"
+#define kSudoPath @"/usr/bin/sudo"
 
 @implementation FirewallTask
 
@@ -36,33 +37,45 @@
   AuthorizationItem items = {kAuthorizationRightExecute, 0, NULL, 0};
 	AuthorizationRights rights = {1, &items};
   OSStatus myStatus = AuthorizationCreate(&rights, kAuthorizationEmptyEnvironment, myFlags, &authRef);
-  [self launchTask];
+  if (myStatus == noErr) {
+    [self launchTask];
+  } else {
+    NSRunAlertPanel(@"Authentication Error", @"Cholesterol needs to authenticate to add the rule.", @"", @"Cancel", NULL);
+  }
+
 }
 
 - (void)launchTask {
+  setuid(0);
+  //AuthorizationRef auth = NULL;
+  //OSStatus junk = AuthorizationCreate(NULL, kAuthorizationEmptyEnvironment, kAuthorizationFlagInteractionAllowed, &auth);
   
-  NSString *firstRuleString = [NSString stringWithFormat:@"add pipe %i ip from any to %@", 1, self.endpoint];
+  NSString *firstRuleString = [NSString stringWithFormat:@"ipfw add pipe %i ip from any to %@", 1, self.endpoint];
+  NSArray *ruleArray = [firstRuleString componentsSeparatedByString:@" "];
   NSTask *firstRule = [[[NSTask alloc] init] autorelease];
-  [firstRule setLaunchPath:kIPFWPath];
-  [firstRule setArguments:[NSArray arrayWithObjects:firstRuleString, nil]];
+  [firstRule setLaunchPath:kSudoPath];
+  [firstRule setArguments:ruleArray];
   [firstRule launch];
   
-  NSString *secondRuleString = [NSString stringWithFormat:@"add pipe %i ip from %@ to any", 2, self.endpoint];
+  NSString *secondRuleString = [NSString stringWithFormat:@"ipfw add pipe %i ip from %@ to any", 2, self.endpoint];
+  ruleArray = [secondRuleString componentsSeparatedByString:@" "];
   NSTask *secondRule = [[[NSTask alloc] init] autorelease];
-  [secondRule setLaunchPath:kIPFWPath];
-  [secondRule setArguments:[NSArray arrayWithObjects:secondRuleString, nil]];
+  [secondRule setLaunchPath:kSudoPath];
+  [secondRule setArguments:ruleArray];
   [secondRule launch];
   
-  NSString *thirdRuleString = [NSString stringWithFormat:@"pipe %i config delay %ims bw %iMBit/s plr %i", 1, [self.latency intValue], [self.speed intValue], [self.loss intValue]];
+  NSString *thirdRuleString = [NSString stringWithFormat:@"ipfw pipe %i config delay %ims bw %iMBit/s plr %i", 1, [self.latency intValue], [self.speed intValue], [self.loss intValue]];
+  ruleArray = [thirdRuleString componentsSeparatedByString:@" "];
   NSTask *thirdRule = [[[NSTask alloc] init] autorelease];
-  [thirdRule setLaunchPath:kIPFWPath];
-  [thirdRule setArguments:[NSArray arrayWithObjects:thirdRuleString, nil]];
+  [thirdRule setLaunchPath:kSudoPath];
+  [thirdRule setArguments:ruleArray];
   [thirdRule launch];
   
-  NSString *fourthRuleString = [NSString stringWithFormat:@"pipe %i config delay %ims bw %iMBit/s plr %i", 2, [self.latency intValue], [self.speed intValue], [self.loss intValue]];
+  NSString *fourthRuleString = [NSString stringWithFormat:@"ipfw pipe %i config delay %ims bw %iMBit/s plr %i", 2, [self.latency intValue], [self.speed intValue], [self.loss intValue]];
+  ruleArray = [fourthRuleString componentsSeparatedByString:@" "];
   NSTask *fourthRule = [[[NSTask alloc] init] autorelease];
-  [fourthRule setLaunchPath:kIPFWPath];
-  [fourthRule setArguments:[NSArray arrayWithObjects:fourthRuleString, nil]];
+  [fourthRule setLaunchPath:kSudoPath];
+  [fourthRule setArguments:ruleArray];
   [fourthRule launch];
   
   AuthorizationFree(authRef, kAuthorizationFlagDestroyRights);
