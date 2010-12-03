@@ -9,9 +9,13 @@
 #import "Hosts.h"
 #import "FirewallTask.h"
 
+
+const NSString * kRulesChanged = @"kRulesChanged";
+
 @implementation Hosts
 
 @synthesize queue;
+@synthesize currentFirewallTask;
 
 static Hosts *sharedInstance = nil;
 
@@ -33,6 +37,7 @@ static Hosts *sharedInstance = nil;
 }
 
 - (void)dealloc {
+  [currentFirewallTask release];
   [queue release];
   [super dealloc];
 }
@@ -46,19 +51,21 @@ static Hosts *sharedInstance = nil;
 }
 
 - (void)newRuleForHost:(Host *)host withSpeed:(NSNumber *)speed latency:(NSNumber *)_latency packetLoss:(NSNumber *)loss delay:(NSNumber *)_delay {
-  FirewallRule *rule = (FirewallRule *)[NSEntityDescription insertNewObjectForEntityForName:@"FirewallRule" inManagedObjectContext:cc_ctx()];
-  rule.host = host;
-  rule.pipeNumber;
-  rule.connectionLatency = _latency;
-  rule.networkSpeed = speed;
-  rule.packetLossRatio = loss;
-  rule.endpoint = host.name;
-  
+  self.currentFirewallTask = [[FirewallTask alloc] initWithEndpoint:host.name speed:speed packetloss:loss latency:_delay namedHost:host namedStyle:FirewallTaskCreate];
+  [self.currentFirewallTask addObserver:self forKeyPath:@"isFinished" options:0 context:NULL];
+  [self.queue addOperation:self.currentFirewallTask];
+}
+
+- (void)flushHosts {
+  NSArray *hosts = [self fetchRequestWithEntity:@"Host" andPredicate:nil];
+  for (Host *host in hosts) {
+    [cc_ctx() deleteObject:host];
+  }
+  self.currentFirewallTask = [[FirewallTask alloc] initWithEndpoint:nil speed:nil packetloss:nil latency:nil namedHost:nil namedStyle:FirewallTaskFlush];
+  [self.currentFirewallTask addObserver:self forKeyPath:@"isFinished" options:0 context:NULL];
+  [self.queue addOperation:self.currentFirewallTask];
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"kRulesChanged" object:nil];
   [cc_app_delegate() saveAction:self];
-  
-  FirewallTask *task = [[FirewallTask alloc] initWithEndpoint:rule.endpoint speed:rule.networkSpeed packetloss:rule.packetLossRatio latency:rule.connectionLatency];
-  [self.queue addOperation:task];
-  [task release];
 }
 
 #pragma mark -
@@ -66,6 +73,26 @@ static Hosts *sharedInstance = nil;
 
 - (NSArray *)hosts {
   return [self fetchRequestWithEntity:@"Host" andPredicate:nil];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+  FirewallTask *task = (FirewallTask *)object;
+  if (task.success && task.style == FirewallTaskCreate) {
+    FirewallRule *rule = (FirewallRule *)[NSEntityDescription insertNewObjectForEntityForName:@"FirewallRule" inManagedObjectContext:cc_ctx()];
+    rule.host = task.host;
+    rule.pipeNumber;
+    rule.connectionLatency = task.latency;
+    rule.networkSpeed = task.speed;
+    rule.packetLossRatio = task.loss;
+    rule.endpoint = task.host.name;
+
+    [cc_app_delegate() saveAction:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"kRulesChanged" object:nil];
+  }
+
+  [task removeObserver:self forKeyPath:@"isFinished"];
+  self.currentFirewallTask = nil;
+  [self.currentFirewallTask release];
 }
 
 - (Host *)fetchHostForName:(NSString *)name {

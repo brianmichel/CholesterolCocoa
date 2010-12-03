@@ -22,10 +22,15 @@
   [self.rulesTable setDataSource:self];
   
   return self;
-}
+} 
 
 - (void)windowWillLoad {
-
+  [[NSNotificationCenter defaultCenter] addObserverForName:@"kRulesChanged" 
+                                                    object:nil 
+                                                     queue:nil 
+                                                usingBlock:^(NSNotification * note) {
+                                                  [self.rulesTable reloadData];
+                                                }];
 }
 
 - (void)windowDidLoad {
@@ -122,6 +127,7 @@
 }
 
 - (void)removeRule:(id)sender {
+  [[Hosts sharedInstance] flushHosts];
   NSLog(@"YUP REMOVE A RULE");
 }
 
